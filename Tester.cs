@@ -10,7 +10,7 @@ namespace test_case_flexibase
 	{
 		public static void Test1()
 		{
-			Console.WriteLine($"\n{new string('*', 18)}\n     Test  #1\n{new string('*', 18)}");
+			InfoLogger.Log($"\n{new string('*', 18)}\n     Test  #1\n{new string('*', 18)}");
 
 			List<object> list = new List<object>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
 			ListLogger.Log(list);
@@ -29,7 +29,7 @@ namespace test_case_flexibase
 		}
 		public static void Test2()
 		{
-			Console.WriteLine($"\n{new string('*', 18)}\n     Test  #2\n{new string('*', 18)}");
+			InfoLogger.Log($"\n{new string('*', 18)}\n     Test  #2\n{new string('*', 18)}");
 
 			List<object> list = new List<object>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 60, 105, 420 };
 			ListLogger.Log(list);
@@ -50,7 +50,7 @@ namespace test_case_flexibase
 		}
 		public static void Test3()
 		{
-			Console.WriteLine($"\n{new string('*', 18)}\n     Test  #3\n{new string('*', 18)}");
+			InfoLogger.Log($"\n{new string('*', 18)}\n     Test  #3\n{new string('*', 18)}");
 
 			List<object> list = new List<object>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 60, 105, 420 };
 			ListLogger.Log(list);
